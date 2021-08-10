@@ -7,6 +7,9 @@ module.exports = {
       'Gatsby blog starter for GraphCMS! Powered by `gatsby-source-graphcms`, featuring `gatsby-image` and MDX!',
     keywords: 'Headless CMS, GraphCMS, GraphQL CMS, Gatsby',
   },
+  flags: {
+    PARALLEL_QUERY_RUNNING: true,
+  },
   plugins: [
     'gatsby-plugin-mdx',
     {

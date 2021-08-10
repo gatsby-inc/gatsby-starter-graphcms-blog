@@ -8,7 +8,7 @@ module.exports = {
     keywords: 'Headless CMS, GraphCMS, GraphQL CMS, Gatsby',
   },
   flags: {
-    PARALLEL_QUERY_RUNNING: true,
+    PARALLEL_QUERY_RUNNING: false,
   },
   plugins: [
     'gatsby-plugin-mdx',
